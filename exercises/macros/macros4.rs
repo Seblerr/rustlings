@@ -16,3 +16,7 @@ fn main() {
     my_macro!();
     my_macro!(7777);
 }
+
+fn test() -> u32 {
+    "hej"
+}

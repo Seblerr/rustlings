@@ -24,9 +24,15 @@ pub struct ReportCard {
 
 impl ReportCard {
     pub fn print(&self) -> String {
-        format!("{} ({}) - achieved a grade of {}",
-            &self.student_name, &self.student_age, &self.grade)
+        format!(
+            "{} ({}) - achieved a grade of {}",
+            &self.student_name, &self.student_age, &self.grade
+        )
     }
+}
+
+fn test_function(input: String) -> u32 {
+    println!("test")
 }
 
 #[cfg(test)]
